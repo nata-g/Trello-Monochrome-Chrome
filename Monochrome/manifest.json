@@ -1,0 +1,14 @@
+{
+        "name": "Trello Monochrome",
+        "version": "0.10",
+        "manifest_version": 2,
+        "description": "A clean monochromatic theme for Trello",
+        "homepage_url": "https://twitter.com/mikomagni",
+        "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+        "content_scripts": [
+        {
+            "matches": ["http://trello.com/*","https://trello.com/*"],
+            "css": ["trello_monochrome.css"]
+        }
+    ] 
+}
